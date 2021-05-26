@@ -1,0 +1,309 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:Poppins,Sans-serif;
+}
+body{
+    background-color:#111111;
+    max-width:100%;
+}
+header{
+    width:100%;
+    display: inline-block;
+    vertical-align: middle;
+    padding:2% 0%;
+    color:#000;
+}
+.pai-logo{
+    display:block;
+    width:100%;
+    text-align:center;
+    border-bottom:1px solid rgba(255,255,255,.1);
+}
+img.logo{
+    height:12%;
+    width:12%;
+    margin:20px 0px;
+}
+div.pai-menu{
+    width:100%;
+    display:block;
+    margin:20px 0px;
+}
+ul{
+    list-style-type:none;
+    padding:0px;
+    text-align:center;
+}
+ul li{
+    display:inline-block;
+    padding:0px 5px;
+}
+ul li a{
+    text-decoration:none;
+    font-size:14px;
+    font-weight:700;
+    color:#fff;
+    text-transform:uppercase;
+}
+section.secao-1{
+    width:100%;
+    height:100vh;
+    padding:10% 5%;
+}
+.banner p.primeiro{
+    position:absolute;
+    color:#fff;
+    font-size:65px;
+    font-weight:800;
+    text-transform:uppercase;
+    line-height:70px;
+    padding-right:30%;
+}
+.underline:after{
+    content:'';
+    position:absolute;
+    top:60%;
+    height:20px;
+    width:800px;
+    background-color:#FA0A87;
+    display:block;
+    z-index:-1;
+}
+section.secao-2{
+    width:100%;
+    padding:0% 5% 5% 5%;
+    display:inline-block;
+}
+h6.titulo-portfolio{
+    font-size:16px;
+    color:#ffffff;
+    font-weight:800;
+    text-transform:uppercase;
+}
+p.subtitulo-portfolio{
+    font-size:12px;
+    font-weight:400;
+    color:#ffffff;
+    opacity:0.8;
+    text-transform:uppercase;
+    letter-spacing:2px;
+}
+h6.titulo-portfolio:after{
+    content:'';
+    position:relative;
+    height:4px;
+    width:200px;
+    background-color:#FA0A87;
+    display:block;
+    z-index:-1;
+}
+.imagem-portfolio{
+    display:inline-block;
+    filter:brightness(20%);
+    height:600px;
+    max-width:100%;
+    object-fit:cover;
+    transition:500ms;
+}
+.imagem-portfolio-2, .imagem-portfolio-3, .imagem-portfolio-4, .imagem-portfolio-5, .imagem-portfolio-6, .imagem-portfolio-7, .imagem-portfolio-8, .imagem-portfolio-9, .imagem-portfolio-10, .imagem-portfolio-11, .imagem-portfolio-12, .imagem-portfolio-13, .imagem-portfolio-14, .imagem-portfolio-15{
+    display:inline-block;
+    filter:brightness(20%);
+    height:265px !important;
+    max-width:100%;
+    object-fit:cover;
+    transition:500ms;
+    margin-top:20px;
+}
+.primeira-grade, .segunda-grade, .terceira-grade, .quarta-grade, .quinta-grade, .sexta-grade, .setima-grade, .oitava-grade, .nona-grade, .decima-grade, .onze-grade, .doze-grade, .treze-grade, .quatorze-grade, .quinze-grade{
+    display:inline-block;
+    width:33%;
+    padding:0px 20px;
+}
+.imagem-portfolio:hover, .imagem-portfolio-2:hover, .imagem-portfolio-3:hover, .imagem-portfolio-4:hover, .imagem-portfolio-5:hover, .imagem-portfolio-6:hover, .imagem-portfolio-7:hover, .imagem-portfolio-8:hover, .imagem-portfolio-9:hover, .imagem-portfolio-10:hover, .imagem-portfolio-11:hover, .imagem-portfolio-12:hover, .imagem-portfolio-13:hover, .imagem-portfolio-14:hover, .imagem-portfolio-15:hover{
+    filter:brightness(100%);
+}
+section.secao-3{
+    width:90%;
+    padding:3vh;
+    margin:0 auto;
+    background-color:#06BDB2;
+}
+div.banner-final{
+    padding:22vh;
+    border:10px solid #fff;
+}
+p.span-final{
+    font-size:12px;
+    font-weight:500;
+    text=transform:uppercase;
+    letter-spacing:2px;
+    color:#FA0A87;
+    text-align:center !important;;
+}
+h3.h3-final{
+    font-size:56px;
+    font-weight:600;
+    color:#111111;
+    text-transform:uppercase;
+    text-align:center;
+}
+p.paragrafo-final{
+    text-decoration:underline #FA0A87;
+    color: #FA0A87;
+}
+footer{
+    padding:1% 5%;
+    background-color:#0c0c0c;
+    display:inline-block;
+    width:100%;
+    vertical-align:middle;
+}
+footer h6{
+    font-size:13px;
+    color:#9d9d9d;
+    font-weight:500;
+    display:inline-block;
+}
+div.copyright{
+    vertical-align:middle;
+    width:50%;
+    display:inline-block;
+}
+div.icones-sociais{
+    width:49%;
+    display:inline-block;
+    vertical-align:middle;
+}
+.fa {
+  font-size:12px;
+  padding:12px 16px;
+  text-align: center;
+  text-decoration: none;
+  float:right;
+  margin:0px 5px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook, .fa-instagram {
+  background:#2b2b2b;
+  color:#ffffff;
+  border-radius:50%;
+}
+@media screen and (max-width: 780px){
+    .pai-logo{
+    display:block;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+    vertical-align:middle;
+}
+div.pai-logo{
+    display:block;
+    width:100%;
+    text-align:center;
+    padding:10px;
+}
+img.logo{
+    height:75%;
+    width:30%;
+}
+div.pai-menu{
+    width:100%;
+    display:block;
+}
+ul li a{
+    font-size:20px;
+    font-weight:700;
+    letter-spacing:2px;
+}
+ul{
+    text-align:center;
+    margin-top:10px;
+}
+section.secao-1{
+    padding:10% 3%;
+}
+.banner p.primeiro{
+    position:absolute;
+    color:#fff;
+    font-size:65px;
+    font-weight:800;
+    text-transform:uppercase;
+    line-height:70px;
+    padding:0% 20%;
+    text-align:center;
+}
+.underline:after{
+    content:'';
+    position:absolute;
+    top:60%;
+    height:20px;
+    text-align:center;
+    width:450px;
+    background-color:#FA0A87;
+    display:block;
+    z-index:-1;
+}
+section.secao-2{
+    width:100%;
+    padding:0% 3%;
+}
+.primeira-grade, .segunda-grade, .terceira-grade, .quarta-grade, .quinta-grade, .sexta-grade, .setima-grade, .oitava-grade, .nona-grade, .decima-grade, .onze-grade, .doze-grade{
+    display:inline-block;
+    width:49%;
+    padding:0px 20px;
+}
+.imagem-portfolio{
+    height:600px;
+    max-width:100%;
+}
+.imagem-portfolio-2, .imagem-portfolio-3, .imagem-portfolio-4, .imagem-portfolio-5, .imagem-portfolio-6, .imagem-portfolio-7, .imagem-portfolio-8, .imagem-portfolio-9, .imagem-portfolio-10, .imagem-portfolio-11, .imagem-portfolio-12{
+    height:250px;
+    max-width:100%;
+}
+h6.titulo-portfolio{
+    font-size:25px;
+    font-weight:700;
+}
+p.subtitulo-portfolio{
+    font-size:16px;
+    letter-spacing:5px;
+}
+h6.titulo-portfolio:after{
+    height:6px;
+    width:150px;
+}
+section.secao-3{
+    width:90%;
+    padding:3vh;
+    margin:50px auto;
+    background-color:#06BDB2;
+}
+div.banner-final{
+    padding:20vh 5%;
+    border:10px solid #fff;
+}
+p.span-final{
+    font-size:18px;
+}
+p.paragrafo-final{
+    font-size:50px;
+    text-decoration:underline #FA0A87;
+    color: #FA0A87;
+}
+footer{
+    padding:5% 5%;
+}
+footer h6{
+    font-size:23px;
+}
+div.copyright{
+    width:80%;
+}
+div.icones-sociais{
+    width:19%;
+}
+}
