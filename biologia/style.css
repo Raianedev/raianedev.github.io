@@ -133,16 +133,13 @@ h3.pergunta{
     color:#ffffff;
     font-weight:700;
     text-transform:uppercase;
-    padding:0% 3%;
     width:100%;
-    float:left;
-    position:relative;
-    word-break: break-word;
 }
 h4.resposta{
     font-size:16px;
     color:#999999;
     font-weight:500;
+    width:100%;
 }
 div.perguntas{
     display:inline-block;
