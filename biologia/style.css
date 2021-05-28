@@ -101,22 +101,30 @@ span.span-box{
 section.tema{
     width:100%;
     padding:5%;
-    display:inline-block;
     vertical-align:middle;
 }
 div.numero-lista{
-    width:15%;
+    width:10%;
+    min-width:10%;
+    max-width:10%;
     display:inline-block;
     vertical-align:middle;
 }
 div.pergunta{
-    width:35%;
+    width:39%;
+    min-width:39%;
+    max-width:39%;
     display:inline-block;
     vertical-align:middle;
     position:relative;
 }
+#perguntas-id{
+    width:100% !important;
+}
 div.resposta{
     width:49%;
+    min-width:49%;
+    max-width:49%;
     display:inline-block;
     vertical-align:middle;
     position:relative;
@@ -136,7 +144,7 @@ h3.pergunta{
     width:100%;
     float:left;
     position:relative;
-    word-break: break-word;
+    word-break: break-all;
 }
 h4.resposta{
     font-size:16px;
@@ -186,4 +194,6 @@ div.pergunta{
 }
 div.resposta{
     width:100%;
-}}
+}
+
+}
