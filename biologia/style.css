@@ -1,3 +1,4 @@
+<style>
 *{
     padding:0;
     margin:0;
@@ -113,11 +114,13 @@ div.pergunta{
     width:35%;
     display:inline-block;
     vertical-align:middle;
+    position:relative;
 }
 div.resposta{
     width:49%;
     display:inline-block;
     vertical-align:middle;
+    position:relative;
 }
 p.numero{
     font-size:14px;
@@ -131,6 +134,10 @@ h3.pergunta{
     font-weight:700;
     text-transform:uppercase;
     padding:0% 3%;
+    width:100%;
+    float:left;
+    position:relative;
+    word-break: break-word;
 }
 h4.resposta{
     font-size:16px;
@@ -181,5 +188,5 @@ div.pergunta{
 div.resposta{
     width:100%;
 }
-
 }
+</style>
