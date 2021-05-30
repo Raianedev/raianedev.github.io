@@ -1,0 +1,199 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:Poppins,Sans-serif;
+}
+body{
+    background-color:#111111;
+    max-width:100%;
+}
+header{
+    width:100%;
+    display: inline-block;
+    vertical-align: middle;
+    padding:0%;
+    color:#000;
+}
+.pai-logo{
+    display:block;
+    width:100%;
+    text-align:center;
+    background-color:#000000;
+    border-bottom:1px solid rgba(255,255,255,.1);
+}
+img.logo{
+    height:12%;
+    width:12%;
+    margin:0px 0px;
+}
+section.banner{
+    width:100%;
+    padding:35vh 25%;
+    background-image:url('https://www.vortexmag.net/wp-content/uploads/2016/11/palavrasestranhas-1.jpg');
+    repeat:no-repeat;
+    background-size:cover;
+}
+h2.primeiro-h2{
+    font-size:80px;
+    font-weight:800;
+    color:#ffffff;
+    text-transform:uppercase;
+    text-align:center;
+}
+p.primeiro-p{
+    font-size:16px;
+    color:#FA0A87;
+    text-transform:uppercase;
+    text-align:center;
+    font-weight:400;
+}
+section.apresentacao{
+    max-width:70%;
+    display:inline-block;
+    margin:100px 0px;
+    padding:0% 5%;
+    vertical-align:middle;
+}
+section.apresentacao-2{
+    max-width:29%;
+    display:inline-block;
+    padding:0% 0%;
+    vertical-align:initial;
+}
+h3.apresentacao-h3{
+    color:#ffffff;
+    font-size: 36px;
+    font-weight:600;
+    text-transform:uppercase;
+    margin-bottom:30px;
+}
+p.apresentacao-p{
+    color:#999;
+    font-size:18px;
+    font-weight:500;
+    margin-bottom:50px;
+}
+p.apresentacao-p2{
+    color:#FA0A87;
+    font-size:16px;
+    text-transform:uppercase;
+    font-weight:400;
+    margin-bottom:30px;
+}
+p.titulo-box{
+    color:#FA0A87;
+    font-size:12px;
+    text-transform:uppercase;
+    font-weight:500;
+}
+span.span-box{
+    color:#999999;
+    font-size:16px;
+    font-weight:400;
+}
+.info, .info-2, .info-3, .info-4{
+    width:45%;
+    display:inline-block;
+    padding:0% 3%;
+    margin-bottom:20px;
+}
+section.tema{
+    width:100%;
+    padding:5%;
+    vertical-align:middle;
+}
+div.numero-lista{
+    width:10%;
+    min-width:10%;
+    max-width:10%;
+    display:inline-block;
+    vertical-align:middle;
+}
+div.pergunta{
+    width:39%;
+    min-width:39%;
+    max-width:39%;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+}
+#perguntas-id{
+    width:100% !important;
+}
+div.resposta{
+    width:49%;
+    min-width:49%;
+    max-width:49%;
+    display:inline-block;
+    vertical-align:middle;
+    position:relative;
+}
+p.numero{
+    font-size:14px;
+    color:#FA0A87;
+    font-weight:400;
+    padding:0% 3%;
+}
+h3.pergunta{
+    font-size:40px;
+    color:#ffffff;
+    font-weight:700;
+    text-transform:uppercase;
+    padding:0% 3%;
+    width:100%;
+    float:left;
+    position:relative;
+    word-break: break-all;
+}
+h4.resposta{
+    font-size:16px;
+    color:#999999;
+    font-weight:500;
+}
+div.perguntas{
+    display:inline-block;
+    margin:100px 0px;
+}
+@media screen and (max-width: 780px){
+section.banner{
+    width:100%;
+    padding:25vh 5%;
+    background-size:cover;
+}
+h2.primeiro-h2{
+    font-size:40px;
+    font-weight:700;
+}
+section.apresentacao{
+    max-width:100%;
+    display:inline-block;
+    margin:50px 0px;
+    padding:0% 3%;
+}
+section.apresentacao-2{
+    max-width:100%;
+    display:inline-block;
+    padding:0% 3%;
+}
+h3.apresentacao-h3{
+    margin-bottom:15px;
+}
+p.apresentacao-p{
+    margin-bottom:20px;
+}
+p.apresentacao-p2{
+    margin-bottom:20px;
+}
+div.numero-lista{
+    width:100%;
+}
+div.pergunta{
+    width:100%;
+    margin-bottom:20px;
+}
+div.resposta{
+    width:100%;
+}
+
+}
